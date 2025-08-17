@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `DANUWA-MD connected ✅\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true` },
+        image: { url: `https://files.catbox.moe/37jcmn.jpg` },
         caption: up
       });
 
@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hey, DANUWA-MD started✅");
+  res.send("Hey, Anubis started✅");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
