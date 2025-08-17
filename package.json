@@ -1,12 +1,12 @@
 {
-  "name": "DANUWA-MD",
+  "name": "Anubis",
   "version": "1.0.0",
-  "description": "A Powerfull Whatsapp Bot",
+  "description": "A  Whatsapp Bot In the new era",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-    "stop": "pm2 stop DANUWA-MD",
-    "restart": "pm2 restart DANUWA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Anubis",
+    "stop": "pm2 stop Anubis",
+    "restart": "pm2 restart Anubis"
   {,
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.18",
