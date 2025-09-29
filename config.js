@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "Tf4SWC4Q#ItlmzCE8lKgLv9Mv-4dbm1XOfwFxNJlGs-HZkozXVvU",
+    SESSION_ID: process.env.SESSION_ID || "agni~mQVUkBob#nYNoWXtcElDRhuoXNMsjIZ9iUrIti9fM9 FDe3Y030H4",
     
     // Alive page image (can be any URL)
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/wy8i4k.jpg",
